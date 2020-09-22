@@ -2,8 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow-x: hidden;
-	
+
 }
 html {
 	scroll-behavior: smooth;
@@ -20,12 +19,6 @@ body {
 	padding-bottom: 1rem;
 	background: rgba(7, 7, 7, 0.5);
 	
-}
-
-@media (max-width: 767px) {
-	.logo {display: none;}
-	.navbar-custom {padding-bottom: 1.5rem;}
-	.navbar-toggler {border: none; outline: none; margin-top: 0.55rem;}
 }
 
 .hero {
@@ -178,4 +171,10 @@ animation: fadeIn ease 2s;
 100% {opacity:1;}
 }
 
+@media (max-width: 767px) {
+	.logo {display: none;}
+	.navbar-custom {padding-bottom: 1.5rem;}
+	.navbar-toggler {border: none; outline: none; margin-top: 0.55rem;}
+	.hero-heading {font-size: 2rem;}
+}
 
